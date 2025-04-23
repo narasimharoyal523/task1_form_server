@@ -18,11 +18,6 @@
 task1_form_server/ ├── views/ │ └── form.ejs ├── server.js ├── package.json
 
 yaml
-Copy
-Edit
-
----
-
 ## ⚙️ Features
 
 - Basic form (Name, Email)
@@ -38,24 +33,16 @@ Edit
 1. Clone or navigate to the folder:
    ```bash
    cd task1_form_server
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Start the server:
-
-bash
-Copy
-Edit
-node server.js
-Open in browser:
-
-arduino
-Copy
-Edit
-http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
+   Start the server:
+3. 
+   ```bash
+   node server.js
+4. Open in browser:
+   ```bash
+   http://localhost:3000
 🌐 Usage
 Fill in your Name and Email.
 
@@ -63,19 +50,12 @@ Click Submit.
 
 The server will respond with a dynamically generated confirmation showing the input.
 
-💡 Example
-Form URL: http://localhost:3000
+5. 💡 Example 
+   ```bash
+    Form URL: http://localhost:3000
 
-Submit:
-
-bash
-Copy
-Edit
-Name: Royal
-Email: narasimha@example.com
-Output:
-
-graphql
-Copy
-Edit
-Received: Royal, narasimha@example.com
+6. Submit:
+   ```bash
+   Name: Royal
+   Email: narasimha@example.com
+   Received: Royal, narasimha@example.com
